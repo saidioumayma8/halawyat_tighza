@@ -1,0 +1,8 @@
+<button 
+  class="language-switcher" 
+  (click)="toggleLanguage()"
+  aria-label="Toggle language">
+  <span class="lang-option" [class.active]="currentLang === 'ar'">AR</span>
+  <span class="lang-divider">/</span>
+  <span class="lang-option" [class.active]="currentLang === 'fr'">FR</span>
+</button>

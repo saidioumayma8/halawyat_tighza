@@ -1,0 +1,72 @@
+{
+  "site": {
+    "title": "Tabkh & Halawiyat Tghazi",
+    "description": "Pâtisseries et plats faits maison à la touche marocaine — gâteaux d’anniversaire, pastilla, plateaux sucrés et salés sur commande"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "products": "Produits",
+    "customOrder": "Commande personnalisée",
+    "gallery": "Galerie",
+    "contact": "Contact",
+    "admin": "Administration"
+  },
+  "hero": {
+    "title": "Tabkh & Halawiyat Tghazi",
+    "subtitle": "Pâtisseries et plats faits maison à la touche marocaine — gâteaux d’anniversaire, pastilla, plateaux sucrés et salés sur commande",
+    "cta": "Commander maintenant"
+  },
+  "about": {
+    "heading": "À propos",
+    "text": "Entreprise familiale spécialisée dans la pâtisserie maison : gâteaux de mariage et d’anniversaire, pastilla, mini-pizzas, mini-quiches, plateaux sucrés et salés. Nous utilisons des ingrédients frais et des recettes traditionnelles marocaines."
+  },
+  "products": {
+    "heading": "Nos produits",
+    "categories": {
+      "birthday_cakes": "Gâteaux d'anniversaire",
+      "wedding_cakes": "Gâteaux de mariage",
+      "bastila": "Pastilla",
+      "mini_quiches": "Mini quiches",
+      "mini_pizzas": "Mini pizzas",
+      "plateaux_sucres": "Plateaux sucrés",
+      "plateaux_sales": "Plateaux salés"
+    },
+    "price_text": "Prix à partir de"
+  },
+  "customOrder": {
+    "heading": "Commande personnalisée",
+    "form": {
+      "name": "Nom complet",
+      "phone": "Numéro de téléphone",
+      "type": "Type de commande",
+      "date": "Date de l’événement",
+      "details": "Détails",
+      "photo": "Télécharger une photo (optionnel)",
+      "submit": "Envoyer la commande"
+    },
+    "success": "Votre commande a été envoyée avec succès !"
+  },
+  "contact": {
+    "heading": "Contactez-nous",
+    "phone": "+212 X XXXXXXXX",
+    "email": "example@mail.com",
+    "whatsapp": "Contact via WhatsApp"
+  },
+  "admin": {
+    "dashboard": "Tableau de bord",
+    "products": "Gestion des produits",
+    "orders": "Commandes",
+    "gallery": "Galerie",
+    "addProduct": "Ajouter un produit",
+    "editProduct": "Modifier le produit",
+    "viewOrders": "Voir les commandes"
+  },
+  "common": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "actions": "Actions"
+  }
+}

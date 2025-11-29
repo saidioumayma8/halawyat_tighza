@@ -1,1 +1,96 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Fonts for Arabic and French */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Noto+Kufi+Arabic:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Custom CSS Variables */
+:root {
+  /* Colors */
+  --gold: #CDA34F;
+  --beige: #F5EDE2;
+  --soft-pink: #F3C6D1;
+  --dark-gray: #333333;
+  --medium-gray: #666666;
+  --light-gray: #CCCCCC;
+  
+  /* Fonts */
+  --arabic-font: 'Cairo', 'Noto Kufi Arabic', sans-serif;
+  --french-font: 'Roboto', sans-serif;
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--french-font);
+  background-color: var(--beige);
+  color: var(--dark-gray);
+  direction: rtl;
+}
+
+[dir="ltr"] body {
+  font-family: var(--french-font);
+  direction: ltr;
+}
+
+/* Arabic text styling */
+.arabic-text {
+  font-family: var(--arabic-font);
+  text-align: right;
+}
+
+[dir="ltr"] .arabic-text {
+  text-align: right;
+}
+
+/* French text styling */
+.french-text {
+  font-family: var(--french-font);
+  text-align: left;
+}
+
+[dir="ltr"] .french-text {
+  text-align: left;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+[dir="ltr"] .text-right {
+  text-align: right;
+}
+
+[dir="ltr"] .text-left {
+  text-align: left;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Focus styles for accessibility */
+a:focus, button:focus {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}

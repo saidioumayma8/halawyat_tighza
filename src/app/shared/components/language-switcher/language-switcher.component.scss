@@ -1,0 +1,19 @@
+.language-switcher {
+  @apply bg-transparent border border-gold rounded-full py-1 px-3 cursor-pointer flex items-center justify-center font-medium transition-all duration-300;
+  
+  &:hover {
+    @apply bg-gold text-white;
+  }
+  
+  .lang-option {
+    @apply text-sm text-gray-500;
+    
+    &.active {
+      @apply text-gold font-semibold;
+    }
+  }
+  
+  .lang-divider {
+    @apply mx-1 text-gray-300;
+  }
+}

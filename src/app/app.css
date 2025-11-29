@@ -1,0 +1,70 @@
+.main-container {
+  @apply min-h-screen bg-beige text-dark-gray;
+  direction: rtl;
+}
+
+.language-switcher-container {
+  @apply fixed top-5 right-5 z-50;
+}
+
+[dir="ltr"] .language-switcher-container {
+  @apply right-auto left-5;
+}
+
+.main {
+  @apply w-full min-h-screen flex justify-center items-center p-4;
+}
+
+.content {
+  @apply flex justify-between w-full max-w-6xl mb-12;
+}
+
+.content h1 {
+  @apply text-5xl font-medium leading-none tracking-tight text-dark-gray mb-0;
+}
+
+.content p {
+  @apply mt-6 mb-6 text-xl text-medium-gray leading-relaxed;
+}
+
+.cta-button {
+  @apply bg-gold text-white border-none rounded-full py-4 px-8 text-lg font-semibold cursor-pointer transition-all duration-300;
+}
+
+.cta-button:hover {
+  @apply bg-opacity-90 transform -translate-y-0.5 shadow-lg;
+}
+
+.divider {
+  @apply w-px bg-gradient-to-b from-gold via-soft-pink to-gold mx-8;
+}
+
+.pill-group {
+  @apply flex flex-col items-start flex-wrap gap-5;
+}
+
+.pill {
+  @apply flex items-center bg-gold bg-opacity-10 text-gold py-3 px-6 rounded-full border-0 transition-all duration-300 font-medium no-underline whitespace-nowrap;
+}
+
+.pill:hover {
+  @apply bg-gold bg-opacity-20 transform -translate-y-0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    @apply flex-col w-full p-4;
+  }
+
+  .divider {
+    @apply h-px w-full bg-gradient-to-r from-gold via-soft-pink to-gold my-8 mx-0;
+  }
+  
+  .language-switcher-container {
+    @apply top-2.5 right-2.5;
+  }
+  
+  [dir="ltr"] .language-switcher-container {
+    @apply right-auto left-2.5;
+  }
+}
